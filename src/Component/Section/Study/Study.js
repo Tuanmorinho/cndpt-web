@@ -24,9 +24,7 @@ function Study({ label }) {
     {
       'letter': '',
       'vision': '',
-      'core': '',
-      'diff': '',
-      'infra': ''
+      'core': ''
     }
   );
 
@@ -37,34 +35,26 @@ function Study({ label }) {
       setStyleColor({
         'letter': 'bg-warning',
         'vision': '',
-        'core': '',
-        'diff': '',
-        'infra': ''
+        'core': ''
       });
     } else if (location.pathname === '/chuong-trinh-hoc/lop-mau-giao-3-6-tuoi/') {
       setStyleColor({
         'letter': '',
         'vision': 'bg-warning',
-        'core': '',
-        'diff': '',
-        'infra': ''
+        'core': ''
       });
     } else {
       if (location.pathname === '/chuong-trinh-hoc/chuong-trinh-hoc-anh-quoc/') {
         setStyleColor({
           'letter': '',
           'vision': '',
-          'core': '',
-          'diff': '',
-          'infra': 'bg-warning'
+          'core': 'bg-warning'
         });
       } else {
         setStyleColor({
           'letter': '',
           'vision': '',
-          'core': '',
-          'diff': '',
-          'infra': ''
+          'core': ''
         });
       }
     }
